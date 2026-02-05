@@ -1,0 +1,172 @@
+/* Стилизация текста */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Основной цвет */
+
+body {
+    background-color: turquoise;
+}
+
+/* header */
+
+h1 {
+    text-align: center;
+    padding-left: 45px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul {
+    background-color: azure;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+/* flex колонки */
+
+.content {
+    display: flex;
+}
+
+.content main {
+    width: 70%;
+}
+
+.content aside {
+    width: 30%;
+}
+
+/* Без aside */
+
+.content-full {
+    display: flex;
+}
+
+.content-full main {
+    width: 100%;
+}
+
+/* Секции */
+
+.section-article {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    flex: 1;
+    gap: 10px;
+}
+
+/* Мои навыки и пройденные курсы */
+
+.my {
+   width: 200px;
+   height: 200px; 
+}
+
+.skill-1 {
+    background: url(../img/pc.jfif);
+    background-size: cover;
+}
+
+.skill-2 {
+    background: url(../img/music.png);
+    background-size: cover;
+}
+
+.skill-3 {
+    background: url(../img/gb.png);
+    background-size: cover;
+}
+
+.course-1 {
+    background: url(../img/microph.png);
+    background-size: cover;
+}
+
+.course-2 {
+    background: url(../img/JavaScript-logo.png);
+    background-size: cover;
+}
+
+.course-3 {
+    background: url(../img/mysql.png);
+    background-size: cover;
+}
+
+/* Новости */
+
+.prew {
+    width: 200px;
+    height: 200px;
+}
+
+.new1 {
+    background: url(../img/cold.png);
+    background-size: cover;
+}
+
+.new1-1 {
+    background: url(../img/freeze.jpg);
+    background-size: cover;
+}
+
+.new2 {
+    background: url(../img/elephant.webp);
+    background-size: cover;
+}
+
+.new2-2 {
+    background: url(../img/elephant.avif);
+    background-size: cover;
+}
+
+.new3 {
+    background: url(../img/important.png);
+    background-size: cover;
+}
+
+.new3-3 {
+    background: url(../img/farquaad.webp);
+    background-size: cover;
+}
+
+/* Якорь */
+
+.top {
+    background: url(../img/up-arrow.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: -90px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: opx;
+}
