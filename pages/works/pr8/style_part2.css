@@ -1,0 +1,113 @@
+.wrapper {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.top {
+    height: 200px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.top a {
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: burlywood;
+    text-transform: uppercase;
+}
+
+.top img {
+    width: auto;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+header ul {
+    background: black;
+}
+
+header nav {
+    text-align: center;
+}
+
+header li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: burlywood;
+}
+
+header li a:hover {
+    background: white;
+    color: black;
+}
+
+section {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+article {
+    padding: 15px 25px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h2, p {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 33px;
+    text-align: justify;
+}
+
+p a {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+}
+
+footer li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    color: black;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+    color: burlywood;
+    font-weight: bolder;
+}
