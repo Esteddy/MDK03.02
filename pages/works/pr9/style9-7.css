@@ -1,0 +1,48 @@
+.weather {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.weather div {
+    display: inline-block;
+}
+
+.sun, .snow, .blizz {
+    width: 130px;
+    height: 100px;
+    margin-right: 2px;
+
+}
+
+.sun {
+    float: inline-start;
+}
+
+.snow {
+    float: left
+}
+
+.blizz {
+    float: none;
+}
+
+span {
+    display: block;
+}
+
+.weather span, .weather p {
+    text-align: center;
+    align-items: center;
+}
+
+span {
+    background: rgb(79, 168, 207);
+    color: white;
+    font-size: 24px;
+    padding: 2px;
+}
+
+p {
+    font-size: 28px;
+    margin-top: 0;
+}
