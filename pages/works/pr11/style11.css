@@ -1,0 +1,260 @@
+@font-face {
+    src: url(font/Broad\ Brush\ S\ \(kerning\).otf);
+    font-family: 'Broad Brush';
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid orange;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    padding: 20px;
+    margin: 30px 10px 0;
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header ul li a:hover {
+    background: white;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(255, 166, 0, 0.9);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 0;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    background: url(img/runnung-man.png);
+    background-size: cover;
+}
+
+article {
+    width: 230px;
+    height: 420px;
+    border: 1px solid orange;
+}
+
+article:nth-child(1n+2) {
+    border-left: none;
+}
+
+header p, header nav, footer nav, h1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Broad Brush';
+}
+
+h3 {
+    width: 30%;
+    margin: 24px 80px;
+}
+
+.category {
+    display: inline-block;
+    width: 85px;
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.sale {
+    background: darkred;
+}
+
+.new {
+    display: block;
+    background: rgb(15, 177, 15);
+}
+
+.discount {
+    background: orange;
+}
+
+.offer {
+    background: purple;
+}
+
+.product {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+article p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.one {
+    background: url(img/backpack.jpg);
+    background-size: cover;
+}
+
+.two {
+    background: url(img/shorts.jpg);
+    background-size: cover;
+}
+
+.three {
+    background: url(img/backpack_2.jpg);
+    background-size: cover;
+}
+
+.four {
+    background: url(img/backpack_3.jpg);
+    background-size: cover;
+}
+
+.rating {
+    display: inline-block;
+    text-indent: 75px;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: grey;
+}
+
+.rating > span::before {
+    content: '★';
+}
+
+.rating > span.active {
+    color: gold;
+}
+
+.available {
+    text-align: center;
+    color: grey;
+}
+
+.available > span::before {
+    content: '✔';
+    color: green;
+}
+
+.price {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.price span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price span:nth-of-type(2) {
+    display: block;
+    color: grey;
+    font-weight: normal;
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+
+.saving {
+    margin-top: 15px;
+}
+
+.saving p {
+    display: inline-block;
+    color: grey;
+    font-weight: normal;
+    text-indent: 30px;
+    padding: 7px;
+}
+
+.profit {
+    width: 90px;
+    float: right;
+    background: rgb(246, 174, 7);
+    color: black;
+    margin-right: 14px;
+}
+
+footer {
+    height: 200px;
+    background: orange;
+}
+
+footer nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 30px auto;
+    border-bottom: 1px solid white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    color: rgb(231, 219, 219);
+    text-align: left;
+    font-style: italic;
+
+    background: orange;
+    margin-left: 70px;
+}
