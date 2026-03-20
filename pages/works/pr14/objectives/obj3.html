@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Задача 3</title>
+        <style>
+            @keyframes slide {
+                0% {
+                    top: 0;
+                    left: 0;
+                }
+
+                100% {
+                    top: 0;
+                    left: 400px;
+                }
+            }
+
+            .box {
+                width: 500px;
+                height: 200px;
+                background: #eaeaed;
+                border: 1px solid black;
+                border-radius: 3px;
+                position: relative;
+            }
+
+            .rect {
+                width: 100px;
+                height: 100px;
+                background: skyblue;
+                border: 1px solid black;
+                cursor: pointer;
+                position: absolute;
+            }
+
+            .box:hover .rect {
+                animation-name: slide;
+                animation-duration: 3s;
+                animation-timing-function: ease;
+                animation-delay: .5s;
+            }
+
+            figure {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <figure class="rect"></figure>
+        </div>
+    </body>
+</html>
