@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ПР№14 - вариант 11</title>
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+                background: #eaeaed;
+                border: 1px solid black;
+                border-radius: 5px;
+            }
+
+            .box-1:hover {
+                cursor: pointer;
+                transition-property: background;
+                animation-name: fade;
+                animation-timing-function: ease-in;
+                animation-duration: 2s;
+                animation-delay: .5s;
+            }
+
+            .box-1 {
+                width: 90px;
+                height: 90px;
+                border-radius: 3px;
+                margin: 50px auto;
+            }
+
+            @keyframes fade {
+                0% {
+                    background: transparent;
+                    opacity: 0;
+                }
+
+                25% {
+                    background: darkred;
+                    border: 1px solid brown;
+                    opacity: 0.25;
+                }
+
+                50% {
+                    background: darkred;
+                    border: 1px solid brown;
+                    opacity: 0.5;
+                }
+
+                75% {
+                    background: darkred;
+                    border: 1px solid brown;
+                    opacity: 0.75;
+                }
+
+                100% {
+                    background: darkred;
+                    border: 1px solid brown;
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="box-1"></div>
+        </div>
+    </body>
+</html>
